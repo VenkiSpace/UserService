@@ -1,0 +1,64 @@
+1.  GET http://localhost:9292/roles
+
+2. POST http://localhost:9292/roles
+		
+Body:
+				
+[
+    {
+        "tenantId": 1,
+        "name": "Admin303",
+        "description": "Admin303",
+        "enabled": true
+    },
+    {
+        "tenantId": 1,
+        "name": "Admin304",
+        "description": "Admin304",
+        "enabled": true
+    },
+    {
+        "tenantId": 1,
+        "name": "Admin305",
+        "description": "Admin305",
+        "enabled": false
+    }
+]
+
+3. DELETE  http://localhost:9292/role/603
+
+4. PUT http://localhost:9292/roles
+
+Body:
+
+[
+    {
+        "id": 355,
+        "tenantId": 4,
+        "name": "Admin203",
+        "description": "Admin203",
+        "enabled": true
+    },
+    {
+        "id": 356,
+        "tenantId": 4,
+        "name": "Admin204",
+        "description": "Admin204",
+        "enabled": true
+    },
+    {
+        "id": 357,
+        "tenantId": 4,
+        "name": "Admin205",
+        "description": "Admin205",
+        "enabled": false
+    }
+]
+
+5. GET http://localhost:9292/roles/tenant/2
+
+6. GET http://localhost:9292/roles/page/0
+
+7. DELETE http://localhost:9292/roles
+
+8. GET http://localhost:9292/role/name/Admin304
