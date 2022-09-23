@@ -1,0 +1,54 @@
+'C:\\Users\\VenkatesanSivasubram\\AppData\\Roaming\\gnupg\\openpgp-revocs.d\\181E06C9C3F9971C2585E4524230E57CDE9E1B42.rev'
+
+Note that this key cannot be used for encryption.  You may want to use
+the command "--edit-key" to generate a subkey for this purpose.
+pub   rsa4096 2022-09-23 [SC]
+      181E06C9C3F9971C2585E4524230E57CDE9E1B42
+uid                      Venkatesan Sivasubramani <venkatesan.s@gmail.com>
+
+
+
+4230E57CDE9E1B42
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBGMtZ1MBEADFe4EQNYeCDOJS63NLant8/gGigOxkdvSD2Uyadhv0XXXnl6XV
+lCyqErZIu0zsCXlWHPBFZky89cb3R2FbqFHnxOZbe0NaL67H6lwSNXIBUHWTX4Tu
+p4fA0VJjVRI8ickZC5Nt5bR/Frylyyddk9F74I2WCK5cYqWWZTs+IWOqTQN+qBF3
+PrrKP4WlTMs7k35lLyGVTqG77S9QgdiwkaukReERPlzZUAtOkzRyy++FLHSXWkca
+BM4ePq/DGqge5EVxcbD7r0by71uNvhbsinatlOMlmoRPcqt9daYTMyiAnkHbZVPz
+FlwLMOtiOkyfW51fcvJU1nVjkoaWOnToqffhx39AeNaVqVIidV0x6PGCWWKLWEoX
+gHKoPxcLFVkxqnbV9YBoo37ip0vkSXjMAZWqOoT+CI8pJPXGGPExLsxUUfrVnpCn
+q+ZyyZthH1VskiaOcudjLZkt8TrWXeTl2zTmWAUjyikAashkPA08DmWLsFMbAND3
+V68rNc6Bvs350JKS4W+HxsX0+w4qndH7dz+ppY3Wmc/Rv2d82aTKdIgkUvjO98Zs
+rcEZqsJjiwtZWg5QL//E05RPpFrBY2X6maxAczfk3A+IvcePVFk5VXYctKP9JGvH
+bMer9gnziBjbmgB6wjRhjzZlRv8g1sRfHdqPlgMOIoQgKsKznhGBn/7TiQARAQAB
+tDFWZW5rYXRlc2FuIFNpdmFzdWJyYW1hbmkgPHZlbmthdGVzYW4uc0BnbWFpbC5j
+b20+iQJRBBMBCAA7FiEEGB4GycP5lxwlheRSQjDlfN6eG0IFAmMtZ1MCGwMFCwkI
+BwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQQjDlfN6eG0IRYxAAi7qsj+X9YePo
+lBW9MFXOWNsY+mXWr97qChyDQedQyH+aqkgiBEtq6/nhs5NBfnXDrkBUovUx5EsP
+HcuYhbXb10+mXuR0AkR/SBoZrcTKbmFy1boBG2tfXtmcFuod1xn8iuWGl/uUrKts
+t4/X6AzUe/+VteD5QbDkHqWG0XgONV1tuGjWaTrKCxcs6siCr0eB5klLWkU4LsWn
+XpPetdXRoIbikzDl8sWKjJVOXSV78yev7D23zR02akNOp5SDyZxV67cGyl2KaahE
+re1MgfjfnVl2T9R13VscneQsCRstAbkeewtYq6buMKfCVykjjObqbEb2uTaqrOMD
+sbSdfSxV023Cd2Zri6OrL9zlYANdd8EWX3g3kZr+m5UKUL/nkhnX81/YsPQElq/z
+uvjl/7FFOWtQoQaP/TX8H3pKR72idYVtrex5gMIqLxakLEBJf76DpxJNtoTGKpiE
+DipXbXBVyxkYQ/cCgV/hbRUIRFYwatQQIoYBbo3OB5n7ZqVeaVBfJM4Nw42DxcPa
+ZGdfeRStoHbhaoCZiovt32I8wGbYDI4cDTKhUqXaZDV+SWerHddV3DNer3JhCsfn
+NRPyg9Eui/hEsLPnikOxA++3bjmX/U3HuhOKujIRLrmu56PDnsx62c+9JahllqKg
+ri65hcSedntfDmSn6yywesmjquS/Aj4=
+=Ka3Q
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+
+
+
+
+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
+
+
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format=long
+gpg --armor --export 4230E57CDE9E1B42
