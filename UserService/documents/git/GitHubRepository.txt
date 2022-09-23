@@ -1,0 +1,24 @@
+
+https://www.youtube.com/watch?v=LPT7v69guVY
+
+https://gpg4win.org/thanks-for-download.html
+
+https://git-scm.com/book/id/v2/Git-Tools-Signing-Your-Work
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-commit-signoff-policy-for-your-repository
+
+https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account
+
+https://nickjanetakis.com/blog/creating-and-managing-a-gpg-key-pair
+
+https://www.youtube.com/watch?v=4166ExAnxmo
+
+https://www.vogella.com/tutorials/EclipseGit/article.html#github_push
+
+Authorization Error:
+
+https://www.youtube.com/watch?v=lMQmTcBmq-U
+
+https://www.youtube.com/watch?v=7LuMTyhFA-g
