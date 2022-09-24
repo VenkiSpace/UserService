@@ -14,11 +14,11 @@
 			<table class="table table-striped">
 				<thead>
 					<tr>
-						<th class="col-1">Delete</th>
 						<th class="col-3">Name</th>
 						<th class="col-6">Description</th>
 						<th class="col-1">Enabled</th>
-						<th class="col-1">Update</th>
+						<th class="col-1">Modify</th>
+						<th class="col-1">Delete</th>
 
 					</tr>
 				</thead>
@@ -26,11 +26,13 @@
 				<tbody>
 					<C:forEach items ="${roles}" var="role" >
 						<tr>
+						<!-- 
 							<td>
 								<a href="deleteRole?id=${role.id}" class="btn btn-sm">
 									<img src="/images/delete20.png" width="20" height="20">
 								</a>
 							</td>
+							 -->
 							<td class="col-3"> ${role.name}</td>
 							<td class="col-6"> ${role.description}</td>
 							<td class="col-1"> 
@@ -44,10 +46,22 @@
 					       		</C:choose>       
 							</td>
 							<td>
+								<a href="modifyRole?id=${role.id}" class="btn btn-secondary btn-sm">
+									Modify
+								</a>
+							</td>
+							<td>
+								<a href="deleteRole?id=${role.id}" class="btn btn-danger btn-sm">
+									Delete
+								</a>
+							</td>
+							<!-- 
+							<td>
 								<a href="modifyRole?id=${role.id}" class="btn btn-sm">
 									<img src="/images/modify20.png" width="20" height="20">
 								</a>
 							</td>
+							 -->
 						</tr>
 					</C:forEach>
 				</tbody>
