@@ -1,0 +1,332 @@
+.page
+{
+	/** background:#F8F8F8; **/
+	background:white;
+	font-family:Verdana,sans-serif;	
+}
+
+.twoColumnsDiv
+{
+	width:700px;
+	/** box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; **/
+	/** box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; **/
+	box-shadow: 0 5px 10px -4px gray;
+	border-radius:10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:auto;
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+}
+
+.twoColumnsDiv1
+{
+	width:700px;
+	/** box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; **/
+	/** box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; **/
+	padding-bottom:10px;
+	margin:auto;
+	border-width:0px;
+}
+
+.threeColumnsDiv
+{
+	width:1050px;
+	/** box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; **/
+	/** box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; **/
+	box-shadow: 0 5px 10px -4px gray;
+	background:white;	
+	border-radius:10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:auto;
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+}
+
+.threeColumnsDiv1
+{
+	box-shadow: 0 5px 10px -4px gray;
+	/** box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; **/
+	/** box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;**/
+	background:white;	
+	border-radius:10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:auto;
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+}
+
+
+.singleColumnDiv
+{
+	width:370px;
+	box-shadow: 0 5px 10px -4px gray;
+	/** box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/**box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; **/
+	/** box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; **/
+	background:white;	
+	border-radius:10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:auto;
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+}
+
+
+.headerDiv
+{
+	height:40px;
+}
+
+.pageHeader
+{
+	font-size:14px;
+	font-weight:bold;
+	box-shadow: 0 5px 10px -4px gray;
+}
+
+.headerImageDiv
+{
+	height:10px;
+	padding-top:5px;
+	padding-right:20px;
+}
+
+.header
+{
+	font-size:13px;
+	font-weight:bold;
+	padding-left:30px;
+	padding-bottom:10px;
+}
+
+.line
+{
+	position:relative;       
+    border:none;
+    height:1.2px;
+    background:#ddd;
+}
+
+.line1
+{
+	position:relative;       
+    border:none;
+    height:0.6px;
+    background:#ddd;
+}
+
+.row > * 
+{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:20px;
+}
+
+.row1 > * 
+{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.rowx > * 
+{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.buttonRow > * 
+{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:30px;
+}
+
+.column
+{
+	padding-left:30px;
+	width:300px;
+}
+
+.label
+{
+	padding-bottom:5px;
+	font-size:13px;
+	margin:left;	
+	color:black;
+}
+
+.dropDown
+{
+	background:#F8F8F8;
+	border-radius:5px;
+	height:35px;
+	width:300px; 
+	font-size:13px;
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+}
+
+.dropDown:focus
+{
+	background:#EBEFF2;
+    outline: none;
+}
+
+.text
+{
+	background:#F8F8F8;
+	border-radius:5px;
+	height:35px;
+	width:300px; 
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+	font-size:13px;
+}
+
+.text:focus
+{
+	background:#EBEFF2;
+    outline:none;
+}
+
+.button
+{
+	width:80px;
+	height:30px;
+	border-radius:8px;
+	background:#007FFF;
+	color:white;
+	border-style:none;
+}
+
+.button:focus
+{
+	border: none;
+    outline: none;
+	background:#3232CC;
+}
+
+.button:hover
+{
+	background:#2E37FE;
+}
+
+.textArea
+{
+	background:#F8F8F8;
+	border-radius:5px;
+	height:110px;
+	width:640px; 
+	border-color:#ddd;
+	border-style:solid;
+	border-width:1.5px;
+	font-size:13px;
+}
+
+.textArea:focus
+{
+	background:#EBEFF2;
+    outline: none;
+}
+
+.checkBox
+{
+	padding-top:10px;
+	font-size:13px;
+}
+
+/** Menu Items **/
+
+/* The below two class is for down arrow in menu */
+.arrow 
+{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+.href
+{
+	
+	text-decoration: none;
+	/*font-weight:bold;*/
+	padding-left:12px;	
+	/* color:#007FFF; */
+	color:black;
+	
+}
+
+.href:focus
+{
+	
+	color:#3232CC;	
+	
+	
+}
+
+.href:hover
+{
+	color:#2E37FE;
+	
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:13px;
+}
+
+.menu
+{
+	/** background:#F8F8F8; **/
+	background-color: white;
+	width:200px; 
+	font-size:14px;
+}
+
+.menu:focus
+{
+	/** background:#EBEFF2; **/
+	background-color: white;
+    outline: none;
+}
+
+.dropdown-content a:hover {background-color: #007FFF; color:white;}
+
+.menu:hover .dropdown-content {display: block;}
+
+.menu:hover .dropbtn {background-color: red;}
