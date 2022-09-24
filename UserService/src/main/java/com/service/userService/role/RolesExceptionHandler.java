@@ -1,4 +1,4 @@
-package com.service.UserService.role;
+package com.service.userService.role;
 
 public class RolesExceptionHandler {
 

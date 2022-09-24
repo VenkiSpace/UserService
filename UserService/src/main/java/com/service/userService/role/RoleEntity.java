@@ -1,4 +1,4 @@
-package com.service.UserService.role;
+package com.service.userService.role;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
