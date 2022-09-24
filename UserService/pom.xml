@@ -83,6 +83,10 @@
 			<version>1.9.0</version>
 		</dependency>
 		<!-- Date Picker Framework End -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
