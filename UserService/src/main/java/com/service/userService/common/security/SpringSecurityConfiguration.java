@@ -2,7 +2,7 @@ package com.service.userService.common.security;
 
 
 import java.util.function.Function;
-
+/*
 import static org.springframework.security.config.Customizer.withDefaults;
 
 
@@ -16,9 +16,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
+@Configuration*/
 public class SpringSecurityConfiguration {
 	
+	/*
 	@Bean
 	public InMemoryUserDetailsManager createUserDetailsManager()
 	{
@@ -58,5 +59,5 @@ public class SpringSecurityConfiguration {
 		http.headers().frameOptions().disable();		
 		return http.build();
 	}
-
+	*/
 }

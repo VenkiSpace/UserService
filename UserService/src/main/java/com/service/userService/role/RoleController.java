@@ -2,6 +2,8 @@ package com.service.userService.role;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,8 +21,12 @@ public class RoleController {
 	@Autowired
 	private RoleService roleService;
 	
+	Logger  logger = LoggerFactory.getLogger(RoleController.class );
+	
 	@PostMapping("/role")
 	public ResponseEntity<RoleEntity> addRole(@RequestBody RoleEntity roleEntity){
+		
+		logger.debug("adding Role in repository for the role name: " + roleEntity.getName());
 		return new ResponseEntity<RoleEntity>(roleService.addRole(roleEntity),HttpStatus.CREATED);
 	}
 	
@@ -41,12 +47,14 @@ public class RoleController {
 	
 	@DeleteMapping("role/{id}")
 	public ResponseEntity<Boolean> deleteRoleById(@PathVariable int id){
+		logger.debug("Get Role Details from repository for the role id: " + id);
 		roleService.deleteById(id);
 		return new ResponseEntity<>(true,HttpStatus.OK);
 	}
 	
 	@DeleteMapping("roles")
 	public ResponseEntity<Boolean> deleteAllRoles(){
+		logger.debug("Delete all configured roles");
 		roleService.deleteAllRoles();
 		return new ResponseEntity<>(true,HttpStatus.OK);
 	}
@@ -54,6 +62,7 @@ public class RoleController {
 	
 	@GetMapping("/roles")
 	public ResponseEntity<List<RoleEntity>> retriveAllRoles(){
+		logger.info("@@@@Retrive all configured roles");
 		return new ResponseEntity<>(roleService.retriveAllRoles(),HttpStatus.OK);
 	}
 	
